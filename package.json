@@ -1,0 +1,30 @@
+{
+  "name": "sthens-mod-bot",
+  "version": "1.0.0",
+  "description": "Bot de Moderação Avançada para Discord com AutoMod, advertências, logs e personalização.",
+  "author": "Sthens",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "private": true,
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "moderation",
+    "automod",
+    "bot"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "discord.js": "^14.27.0",
+    "dotenv": "^18.0.8"
+  }
+}
